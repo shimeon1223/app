@@ -7,45 +7,45 @@ export default function Home() {
     <div>
         <Head>
             <meta charset="UTF-8"/>
-            <title>–¼ŠÐ‰î</title>
+            <title>åæ‰€ç´¹ä»‹</title>
         </Head>
     </div>
         <header className="page-header">
-            <h1><Link href="/">–¼ŠÐ‰î</Link></h1>
+            <h1><Link href="/">åæ‰€ç´¹ä»‹</Link></h1>
             <nav>
                 <ul className="main-nav">
-                    <li><Link href="/meisho/asakusa">ó‘</Link></li>
-                    <li><Link href="/meisho/kyoto">‹ž“s</Link></li>
-                    <li><Link href="/meisho/shinjuku">Vh</Link></li>
-                    <li><Link href="/meisho/disney">ƒfƒBƒYƒj[</Link></li>
-                    <li><Link href="/meisho/nikko">“úŒõ</Link></li>
+                    <li><Link href="/meisho/asakusa">æµ…è‰</Link></li>
+                    <li><Link href="/meisho/kyoto">äº¬éƒ½</Link></li>
+                    <li><Link href="/meisho/shinjuku">æ–°å®¿</Link></li>
+                    <li><Link href="/meisho/disney">ãƒ‡ã‚£ã‚ºãƒ‹ãƒ¼</Link></li>
+                    <li><Link href="/meisho/nikko">æ—¥å…‰</Link></li>
                 </ul>
             </nav>
         </header>
 
-        <h1 className="TITLE">–¼ŠÐ‰î</h1>
+        <h1 className="TITLE">åæ‰€ç´¹ä»‹</h1>
 
 
         <div className="container">
             <Link className="item" href="/meisho/asakusa">
-                <Image src='mysite/images/ó‘/kaminarimon.jpg' className="img_article" alt=""/>
-                <p>ó‘</p>
+                <Image src='mysite/images/æµ…è‰/kaminarimon.jpg' className="img_article" alt=""/>
+                <p>æµ…è‰</p>
             </Link>
             <Link className="item" href="/meisho/kyoto">
-                <Image src="/mysite/images/‹ž“s/kiyomizudera.jpg" className="img_article" alt=""/>
-                <p>‹ž“s</p>
+                <Image src="/mysite/images/äº¬éƒ½/kiyomizudera.jpg" className="img_article" alt=""/>
+                <p>äº¬éƒ½</p>
             </Link>
             <Link className="item" href="/meisho/shinjuku">
-                <Image src="mysite/images/Vh/sakura1.jpg" className="img_article" alt=""/>
-                <p>Vh</p>
+                <Image src="mysite/images/æ–°å®¿/sakura1.jpg" className="img_article" alt=""/>
+                <p>æ–°å®¿</p>
             </Link>
             <Link className="item" href="/meisho/disney">
-                <Image src="mysite/images/ƒfƒBƒYƒj[/7897.jpg" className="img_article" alt=""/>
-                <p>ƒfƒBƒYƒj[</p>
+                <Image src="mysite/images/ãƒ‡ã‚£ã‚ºãƒ‹ãƒ¼/7897.jpg" className="img_article" alt=""/>
+                <p>ãƒ‡ã‚£ã‚ºãƒ‹ãƒ¼</p>
             </Link>
             <Link className="item" href="/meisho/nikko">
-                <Image src="mysite/images/“úŒõ/sanzaru.jpg" className="img_article" alt=""/>
-                <p>“úŒõ</p>
+                <Image src="mysite/images/æ—¥å…‰/sanzaru.jpg" className="img_article" alt=""/>
+                <p>æ—¥å…‰</p>
             </Link>
         </div>
 
@@ -53,4 +53,3 @@ export default function Home() {
 </div>
     );
 }
-

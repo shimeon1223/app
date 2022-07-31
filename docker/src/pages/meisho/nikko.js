@@ -11,43 +11,43 @@ return(
     <div>
         <Head>
             <meta charset="UTF-8"/>
-            <title>���s�Љ�</title>
+            <title>日光紹介</title>
         </Head>
     </div>
     <header className="page-header">
-        <h1><Link href="/">�����Љ�</Link></h1>
+        <h1><Link href="/">名所紹介</Link></h1>
         <nav>
             <ul className="main-nav">
-                <li><Link href="/meisho/asakusa">��</Link></li>
-                <li><Link href="/meisho/kyoto">���s</Link></li>
-                <li><Link href="/meisho/shinjuku">�V�h</Link></li>
-                <li><Link href="/meisho/disney">�f�B�Y�j�[</Link></li>
-                <li><Link href="/meisho/nikko">����</Link></li>
+                <li><Link href="/meisho/asakusa">浅草</Link></li>
+                <li><Link href="/meisho/kyoto">京都</Link></li>
+                <li><Link href="/meisho/shinjuku">新宿</Link></li>
+                <li><Link href="/meisho/disney">ディズニー</Link></li>
+                <li><Link href="/meisho/nikko">日光</Link></li>
             </ul>
         </nav>
     </header>
 
-    <h1 className="TITLE">�����Љ�</h1> 
+    <h1 className="TITLE">日光紹介</h1> 
     <Tabs>
         <TabList>
-            <Tab>�O��</Tab>
-            <Tab>�h���{��</Tab>
+            <Tab>三猿</Tab>
+            <Tab>宿泊施設</Tab>
         </TabList>
         <TabPanels>
             <TabPanel>
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
-                        <h2>�O���̎ʐ^</h2>
-                        <Image src="/mysite/images/����/sanzaru.jpg" className="meisho-image" alt=""/>
+                        <h2>三猿の写真</h2>
+                        <Image src="/mysite/images/日光/sanzaru.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
                             <Divider orientation='vertical' />
                             <div>
-                                <Text fontSize='20px' color='blue'>����</Text>
-                                <Text>�������Ƌ{�ɂ����ėL���Ȍ����長�����錾�킴��B</Text>
-                                <Text>������ԋ߂ŎB�e�����ꖇ�B</Text>
-                                <Text>�\�ɕ����Ă����Ƃ���A�����Ă���ʂ�̃|�[�Y�����Ă���B</Text>
+                                <Text fontSize='20px' color='blue'>説明</Text>
+                                <Text>日光東照宮において有名な見ざる聞かざる言わざる。</Text>
+                                <Text>それを間近で撮影した一枚。</Text>
+                                <Text>噂に聞いていたとおり、言われている通りのポーズをしている。</Text>
                             </div>
                         </Stack>
                     </div>
@@ -58,16 +58,16 @@ return(
             <TabPanel>
                 <div className="meisho-container">
                     <div className="meisho-imagebox">
-                        <h2>�h���{�݂̎ʐ^</h2>
-                        <Image src="/mysite/images/����/7899.jpg" className="meisho-image" alt=""/>
+                        <h2>宿泊施設の写真</h2>
+                        <Image src="/mysite/images/日光/7899.jpg" className="meisho-image" alt=""/>
                     </div>
                     <div className="meisho-text">
                         <Stack direction='row' h='300px' p={4}>
                             <Divider orientation='vertical' />
                             <div>
-                                <Text fontSize='20px' color='blue'>����</Text>
-                                <Text>�����ɂďh���{�݂̊O�̒�ɂāA���̔������Ɏv�킸�p�V�����ƈꖇ�B</Text>
-                                <Text>�����������R�̒��ɂ���̂͐S�������悤�Ȏv���ɂȂ�B</Text>
+                                <Text fontSize='20px' color='blue'>説明</Text>
+                                <Text>日光にて宿泊施設の外の庭にて、その美しさに思わずパシャリと一枚。</Text>
+                                <Text>美しいい自然の中にいるのは心が洗われるような思いになる。</Text>
                             </div>
                         </Stack>
                     </div>
